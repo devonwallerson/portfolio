@@ -70,9 +70,11 @@
     height: 120px; 
     object-fit: cover;
     border-radius: 50%;
-
   }
   
+  .experience img:hover{
+    animation: spin 2.5s linear infinite;
+  }
   .experience h2, .experience h3, .experience p {
     margin: 5px 0; 
     color: #ecf0f1; 
@@ -83,6 +85,17 @@
     color:white;
     text-decoration:underline;
   }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  
   
   @media (max-width: 768px) {
     .experienceWrapper {
