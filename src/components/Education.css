@@ -1,0 +1,58 @@
+.eduContainer {
+    /* background-color: rgba(51, 51, 51, 0.8); */
+    border-radius: 15px; 
+    padding: 40px; 
+    margin: 40px auto; 
+    width: 75%; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #151515; 
+    color: #f1f1f1; 
+  }
+  
+  h1, h2, h3 {
+    margin: 20px 0; 
+  }
+  
+  h2 em, h3 em {
+    color: #a9a9a9; 
+  }
+  
+  h1 {
+    font-size: 3.5em;
+  }
+  
+  h2 {
+    font-size: 2em;
+  }
+  
+  h3 {
+    font-size: 1.3em;
+  }
+  
+  @media (max-width: 768px) {
+    .eduContainer {
+      padding: 20px; 
+      margin: 20px auto; 
+      width: 90%; 
+    }
+  
+    h1 {
+      font-size: 1.8em;
+    }
+  
+    h2, h3 {
+      font-size: 1.4em;
+    }
+  }
+  
+  .eduContainer img{
+    margin-top:15px;
+    width:25em;
+    height:10em;
+  }
+
+  @media (max-width: 768px) {
+    .eduContainer {
+      max-width:80%
+    }
+  }

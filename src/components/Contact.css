@@ -1,0 +1,58 @@
+.contactContainer {
+    border-radius: 15px; 
+    padding: 40px; 
+    margin: 40px auto; 
+    width: 75%; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #151515; 
+    color: #f1f1f1; 
+  }
+  
+  .contactContainer label, 
+  .contactContainer input[type="text"], 
+  .contactContainer input[type="email"], 
+  .contactContainer textarea, 
+  .contactContainer input[type="submit"] {
+    display: block; 
+    width: 100%; 
+    margin: 10px 0; 
+    padding: 10px; 
+    font-size:1.5em;
+  }
+  
+  .contactContainer input[type="submit"] {
+    background-color: #333; 
+    color: #fff; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    margin-top:20px;
+  }
+  
+  .contactContainer input[type="submit"]:hover {
+    background-color: #444; 
+  }
+  
+  .contactContainer input[type="text"], 
+  .contactContainer input[type="email"], 
+  .contactContainer textarea {
+    background-color: #333; 
+    border: 1px solid #444; 
+    color: #fff; /* Text color */
+  }
+  
+  .contactContainer textarea {
+    height: 150px;
+    resize: vertical; 
+  }
+  
+  @media (max-width: 768px) {
+    .contactContainer {
+      padding: 20px; 
+      margin: 20px auto; 
+      width: 90%; 
+    }
+  }
+  
+
+  

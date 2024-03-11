@@ -1,0 +1,77 @@
+body, html {
+  margin: 0;
+  padding:0;
+  height:100%;
+  width:100%;
+  text-align: center;
+}
+
+#root {
+  height:100%;
+  display:flex;
+  flex-direction:column;
+}
+
+.navbar{
+  background-color:black;
+  position:fixed;
+  width:100%;
+  min-height:100px;
+  top: 0;
+  left: 0;
+  z-index:10;
+}
+
+.intro-section{
+  display:flex;
+  justify-content : center;
+  align-items:center;
+  flex:1;
+  padding-top:100px;
+  padding-bottom:20px;
+  box-sizing:border-box;
+  margin: 0 auto;
+
+}
+.exp{
+  margin-top:50px;
+}
+.highproj{
+  margin-top:150px;
+}
+
+.contactMe{
+  margin-top:80px;
+}
+
+.education {
+  margin-bottom: 120px;
+}
+@media (max-width: 768px) {
+  .intro-section {
+    flex-direction: column;
+    align-items:center;
+    padding-top: 100px; 
+  }
+
+  .intro-section .photo img {
+    width: auto; 
+    max-width: 35em; 
+    height: auto; 
+  }
+
+  .intro-section .introduction {
+    width: 100%;
+    max-width: 500px; 
+    margin-top: 20px; 
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fadeIn {
+  animation: fadeIn 2s ease-in;
+}

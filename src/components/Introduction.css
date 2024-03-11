@@ -1,0 +1,114 @@
+.photo img{
+    width:35em;
+    height:35em;
+    border-radius:50%;
+    object-fit:cover;
+    min-width:10vh;
+
+    max-width: 100%; 
+    height: auto; 
+    border: black line 40px;
+    animation: fadeIn 2s ease-in;
+
+}
+
+.photo img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+  }
+  
+
+.container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    padding:50px;
+    gap:20px;
+}
+
+.introduction{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content:center;
+    align-items: center;
+    max-width:67em;
+    flex:1;
+    animation: fadeIn 1s ease-in;
+
+}
+
+
+.introduction h1, .introduction h3{
+    margin:0;
+    padding: 0.5em 0;
+}
+
+.introduction h1{
+    font-size:4.5em;
+    border-right: 2px solid; /* Simulate the cursor */
+  width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 1.2s steps(40, end) forwards, blink-caret 0.75s step-end infinite;
+
+}
+
+.introduction h3{
+    font-size:1.5em;
+    line-height:40px;
+}
+
+.photo, .introduction {
+    flex: 1; /* Makes both children take up equal space */
+  }
+
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  
+
+  @media (max-width: 900px) {
+    .photo img {
+      min-width:150px;
+      width: 80%; 
+      height: auto;
+      min-width:40vh;
+      max-width: 6em; 
+    }
+  
+    .container {
+      justify-content: center;
+      align-items: flex-start;
+      width:100%
+    }
+  
+    .introduction {
+      width: 100%; 
+      text-align: center; 
+    }
+  
+    .photo,
+    .introduction {
+      max-width: 100%;
+      margin: 0;
+    }
+
+    .introduction h1{
+      font-size:6vw;
+      width:100%;
+    }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes blink-caret {
+    50% { border-color: transparent; }
+
+  }
+  

@@ -1,0 +1,92 @@
+[
+    {
+        "h1" : "Hi, I'm Devon Wallerson",
+        "h3" : "I am a second year student studying Computer Science at the New Jersey Institute of Technology. When I'm not doing work, you can find me taking walks with my dog, Niko!"
+    },
+    {
+        "school" : "New Jersey Institute of Technology, Albert Dorman Honors College",
+        "major" : "Computer Science",
+        "gpa" : "3.73",
+        "coursework" : "Data Structures, Internet Applications, Data Science, C++, Java",
+        "other" : "Recipient of the NJIT Honors Full Ride Scholarship, Dean's List Scholar"
+    },
+    {
+         "workExperiences": [
+        {
+            "company" : "Morgan Stanley",
+            "role" : "Technology Summer Analyst",
+            "dates" : "June, 2024 - August, 2024",
+            "whatIDid" : "Incoming, Summer 2024.",
+            "logo" : "morganStanley.jpg",
+            "stack" : ""
+        }, {
+            "company" : "Capital One",
+            "role" : "Black and Hispanic Tech Summit Attendee",
+            "dates" : "January, 2024",
+            "whatIDid" : "Developed Web Application to help destigmatize and educate minority communities on investing with Capital One. Hackathon finalist.",
+            "logo" : "capitalOne.png",
+            "stack" : "HTML/CSS, JavaScript, TIINGO API, Python - MatPlotLib, Pandas"
+            
+        }]
+    },
+    { 
+        "professionalDevelopment" : [{
+            "company" : "Management Leadership for Tomorrow",
+            "role" : "Software Engineering Career Prep",
+            "dates" : "January 2024 - December 2025",
+            "whatIDid" : "Participating in a rigorous, application-only professional development program aimed at accelerating my career in software engineering, focusing on enhancing technical and leadership skills within the tech industry.",
+            "logo" : "mlt.png",
+            "stack" : "Data Structures and Algorithms, Software Engineering Principles, Technical Interview Prep"
+        },
+        {
+            "company" : "ColorStack",
+            "role" : "Software Engineering Fellow",
+            "dates" : "October 2023 - Present",
+            "whatIDid" : "Selected for a competitive fellowship program aimed at empowering underrepresented students in technology through mentorship, career development, and hands-on software engineering projects.",
+            "logo" : "colorstack.jpeg",
+            "stack" : "Technical Interview Prep, Software Engineering Principles"
+        },
+        {
+            "company" : "CodePath",
+            "role" : "Intermediate Web Development Student",
+            "dates" : "January 2024 - May 2024",
+            "whatIDid" : "Completing an intensive, project-based course focusing on intermediate web development concepts, including front-end development and React.",
+            "logo" : "codepath.png",
+            "stack" : "ReactJs, HTML/CSS, JavaScript"
+        }]
+    },
+    {
+        "volunteerWork" : [{
+            "company" : "NJIT Student Senate",
+            "role" : "Computer Science Major Representative",
+            "dates" : "October 2023 - Present",
+            "whatIDid" : "Elected to the Computer Science Representative Position of the NJIT Student Senate with a focus on improving diversity, equity, and inclusion in the Computer Science program through increased promotion of uplifting programs for minority Computer Science Students.",
+            "logo" : "senate.jpg",
+            "stack" : ""
+        },
+        {
+            "company" : "NJIT National Society of Black Engineers",
+            "role" : "Web Developer + Public Relations Chairperson",
+            "dates" : "October 2023 - Present",
+            "whatIDid" : "Leading a team building a chapter website with HTML/CSS, JavaScript, and Google Sites for NJIT NSBE. Maintaining effective communication between NSBE and other campus organizations for effective collaboration",
+            "logo" : "nsbe.png",
+            "stack" : "HMTL/CSS, JavaScript, Google Sites"
+        },
+        {
+            "company" : "NJIT Albert Dorman Honors College",
+            "role" : "Teaching Assistant / Orientation Leader",
+            "dates" : "August 2023 - December 2023",
+            "whatIDid" : "Led weekly lectures to facilitate the transition of incoming first year students to collegiate life. Evaluated and provided feedback on essays, resumes, and guided students through a biodiversity project aimed at enhancing ecological diversity on campus.",
+            "logo" : "adhc.jpeg",
+            "stack" : ""
+        },
+        {
+            "company" : "NJIT Kids Who Code",
+            "role" : "Computer Science Tutor",
+            "dates" : "September 2022 - June 2023",
+            "whatIDid" : "Performed comprehensive code analysis and actively contributed to the design of a STEM-focused curriculum to teach young students from Hawthorne Avenue Elementary School in Newark, NJ. Utilized Scratch to help teach the students coding principles, while diving into more complicated code related to drone technology.",
+            "logo" : "njit.png",
+            "stack" : "Scratch, Python"
+        }]
+    }
+]

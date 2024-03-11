@@ -1,0 +1,31 @@
+[
+    {
+        "projectid" : 1,
+        "name" : "Fantasy Stock League",
+        "description" : "The Fantasy Stock League aims to destigmatize Investing and promote growth/learning amongst underrepresented communities. By creating this project, we strive to ensure that all people have access to a financial literacy that will assist in upward economic mobility for young people, minorities, and women. Created by Devon Wallerson, Michael Sun, Sean Bamfo, and Sulaiman Oyekunle.",
+        "link" : "https://github.com/xmike-yyy/hackathon-summit",
+        "photo" : "fantasystock.png",
+        "stack" : "HTML/CSS, JavaScript, TIINGO API, Python - Pandas, MatPlotLib",
+        "class" : "personalProject"
+    },
+    {
+        "projectid" : 2,
+        "name" : "Predicting House Prices",
+        "description" : "Implemented Python and Jupyter Notebook to formulate predictions of the median sale price of homes in the New York City Metro Area.",
+        "link" : "https://github.com/devonwallerson/predicthouseprices",
+        "photo" : "predicting.png",
+        "stack" : "Python - Jupyter Notebook, Pandas, Numpy, SciKit-Learn, Random Forest Classifier",
+        "class" : "personalProject"
+    },
+    {
+        "projectid" : 3,
+        
+        "name" : "House Of Health",
+        "description" : "Portal created to allow receptionists to access patient information in a doctors office. Implemented a HTML/CSS based frontend with JavaScript functions, and PHP with SQL queries to display to the database that contains patient information. Receptionists can also perform functions to manipulate the database, like adding and removing patients and appointments.",
+        "link" : "https://github.com/devonwallerson/HouseOfHealth",
+        "photo" : "houseOfHealth.png",
+        "stack" : "HTML/CSS, JavaScript, PHP, SQL",
+        "class" : "classProject"
+    }
+
+]
