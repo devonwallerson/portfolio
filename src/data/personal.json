@@ -7,21 +7,21 @@
         "school" : "New Jersey Institute of Technology, Albert Dorman Honors College",
         "major" : "Computer Science",
         "gpa" : "3.73",
-        "coursework" : "Data Structures, Internet Applications, Data Science, C++, Java",
+        "coursework" : "Data Structures, Internet Applications, Data Science, C++, Java, Discrete Math",
         "other" : "Recipient of the NJIT Honors Full Ride Scholarship, Dean's List Scholar"
     },
     {
          "workExperiences": [
         {
             "company" : "Morgan Stanley",
-            "role" : "Technology Summer Analyst",
+            "role" : "Software Engineer Intern",
             "dates" : "June, 2024 - August, 2024",
-            "whatIDid" : "Incoming, Summer 2024.",
+            "whatIDid" : "Developing a dashboard that enables business users to understand more about their transaction data",
             "logo" : "morganStanley.jpg",
-            "stack" : ""
+            "stack" : "Angular, TypeScript, Java(Springboot), SQL"
         }, {
             "company" : "Capital One",
-            "role" : "Black and Hispanic Tech Summit Attendee",
+            "role" : "Software Engineer Summiteer",
             "dates" : "January, 2024",
             "whatIDid" : "Developed Web Application to help destigmatize and educate minority communities on investing with Capital One. Hackathon finalist.",
             "logo" : "capitalOne.png",
@@ -45,6 +45,14 @@
             "whatIDid" : "Selected for a competitive fellowship program aimed at empowering underrepresented students in technology through mentorship, career development, and hands-on software engineering projects.",
             "logo" : "colorstack.jpeg",
             "stack" : "Technical Interview Prep, Software Engineering Principles"
+        },
+        {
+            "company" : "CodePath",
+            "role" : "Intermediate Technical Interview Prep",
+            "dates" : "June 2024 - August 2024",
+            "whatIDid" : "Completing a rigorous technical interview preparation course throughout the summer.",
+            "logo" : "codepath.png",
+            "stack" : "Python, Data Structures, Algorithms"
         },
         {
             "company" : "CodePath",

@@ -1,6 +1,6 @@
 [
     {
-        "projectid" : 1,
+        "projectid" : 2,
         "name" : "Fantasy Stock League",
         "description" : "The Fantasy Stock League aims to destigmatize Investing and promote growth/learning amongst underrepresented communities. By creating this project, we strive to ensure that all people have access to a financial literacy that will assist in upward economic mobility for young people, minorities, and women. Created by Devon Wallerson, Michael Sun, Sean Bamfo, and Sulaiman Oyekunle.",
         "link" : "https://github.com/xmike-yyy/hackathon-summit",
@@ -9,7 +9,7 @@
         "class" : "personalProject"
     },
     {
-        "projectid" : 2,
+        "projectid" : 3,
         "name" : "Predicting House Prices",
         "description" : "Implemented Python and Jupyter Notebook to formulate predictions of the median sale price of homes in the New York City Metro Area.",
         "link" : "https://github.com/devonwallerson/predicthouseprices",
@@ -18,13 +18,13 @@
         "class" : "personalProject"
     },
     {
-        "projectid" : 3,
+        "projectid" : 1,
         
-        "name" : "House Of Health",
-        "description" : "Portal created to allow receptionists to access patient information in a doctors office. Implemented a HTML/CSS based frontend with JavaScript functions, and PHP with SQL queries to display to the database that contains patient information. Receptionists can also perform functions to manipulate the database, like adding and removing patients and appointments.",
-        "link" : "https://github.com/devonwallerson/HouseOfHealth",
-        "photo" : "houseOfHealth.png",
-        "stack" : "HTML/CSS, JavaScript, PHP, SQL",
+        "name" : "Apple Music Library Web Analysis",
+        "description" : "Web Application that queries users' Apple Music Data through the Apple Music API and shows them statistics based on their library. Components are dynamic and change color based on the song chosen, and display song specific badges based on what playlists the songs are in.",
+        "link" : "https://github.com/devonwallerson/amlibrary-plays",
+        "photo" : "amplays.png",
+        "stack" : "ReactJs, Bootstrap, Apple Music API, Node.js",
         "class" : "classProject"
     }
 
