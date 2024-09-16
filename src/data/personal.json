@@ -1,17 +1,25 @@
 [
     {
         "h1" : "Hi, I'm Devon Wallerson",
-        "h3" : "I am a Software Engineer Intern at Morgan Stanley, and a third year student studying Computer Science at the New Jersey Institute of Technology. When I'm not doing work, you can find me taking walks with my dog, Niko!"
+        "h3" : "I am a Data Engineer Intern at BMW of North America, and a third year student studying Computer Science at the New Jersey Institute of Technology. When I'm not doing work, you can find me taking walks with my dog, Niko!"
     },
     {
         "school" : "New Jersey Institute of Technology, Albert Dorman Honors College",
         "major" : "Computer Science",
-        "gpa" : "3.73",
+        "gpa" : "3.71",
         "coursework" : "Data Structures, Internet Applications, Data Science, C++, Java, Discrete Math",
         "other" : "Recipient of the NJIT Honors Full Ride Scholarship, Dean's List Scholar"
     },
     {
          "workExperiences": [
+        {
+            "company" : "BMW of North America",
+            "role" : "Data Engineer Intern",
+            "dates" : "September, 2024 - December, 2024",
+            "whatIDid" : "Developing a dashboard that enables business users to understand more about their transaction data",
+            "logo" : "bmw.png",
+            "stack" : "PySpark, SQL"
+        },
         {
             "company" : "Morgan Stanley",
             "role" : "Software Engineer Intern",
