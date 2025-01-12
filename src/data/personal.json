@@ -13,6 +13,22 @@
     {
          "workExperiences": [
         {
+            "company" : "Morgan Stanley",
+            "role" : "Software Engineer Intern",
+            "dates" : "June, 2025 - August, 2025",
+            "whatIDid" : "Incoming - Summer 2025",
+            "logo" : "morganStanley.jpg",
+            "stack" : ""
+         },
+        {
+            "company" : "HubSpot",
+            "role" : "Software Engineer Intern",
+            "dates" : "January, 2025 - May, 2025",
+            "whatIDid" : "",
+            "logo" : "hubspot.png",
+            "stack" : "ReactJs, HTML/CSS, JavaScript"
+        },
+        {
             "company" : "BMW of North America",
             "role" : "Data Engineer Intern",
             "dates" : "September, 2024 - December, 2024",
@@ -23,7 +39,7 @@
         {
             "company" : "Morgan Stanley",
             "role" : "Software Engineer Intern",
-            "dates" : "June, 2024 - August, 2024",
+            "dates" : "June, 2024 - September, 2024",
             "whatIDid" : "Developing a dashboard that enables business users to understand more about their transaction data",
             "logo" : "morganStanley.jpg",
             "stack" : "Angular, TypeScript, Java(Springboot), SQL"
